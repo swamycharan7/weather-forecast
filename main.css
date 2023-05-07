@@ -1,0 +1,107 @@
+
+  body {
+    font-family: 'montserrat', sans-serif ;
+    background-image: url('images.jpg');
+    background-size: cover;
+    background-position: top center;
+     
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .app-wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .search-box {
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .location {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .city {
+    margin-bottom: 10px;
+    font-size: 60px;
+    text-transform: uppercase;
+  }
+  
+  .date {
+    margin-bottom: 30px;
+    font-size: 35px;
+  }
+  
+  .current {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+  
+  .temp {
+    color: black;
+    font-size: 92px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.6);
+  }
+  
+  .temp span {
+    font-size: 80px;
+    font-style: italic;
+  }
+  
+  .weather {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .hi-low {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
